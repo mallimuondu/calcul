@@ -17,6 +17,6 @@ def multiply():
             else:
                 print("I did not understand you")
                 again_funct()
-        except ValueError:
+        except ValueError:  
             print("Pls input a number or a number with a decimal")
 multiply()
