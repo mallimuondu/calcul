@@ -37,5 +37,7 @@ elif a == 'g':
     q = int(input('insert hight: '))
     r = 0.025 * p * q
     print('the area = ',r)
+elif a == '' or a == ' ':
+    print('you have inputed nothing')
     
     
